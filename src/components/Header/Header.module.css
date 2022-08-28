@@ -1,0 +1,52 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: #383838;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 10%;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+	z-index: 10;
+}
+
+.logo {
+	width: auto;
+	height: 100%;
+}
+
+.searchBar {
+	border-radius: 14px;
+	height: 2rem;
+	width: 35rem;
+}
+
+
+@media (max-width:480px) {
+
+	@keyframes dropDownButton-spin {
+		from {
+			transform: rotate(0);
+		}
+
+		to {
+			transform: rotate(45deg);
+		}
+	}
+
+	@keyframes linkBox-appear {
+		from {
+			opacity: 0;
+			transform: translateY(-3rem);
+		}
+
+		to {
+			opacity: 1;
+			transform: translateY(0rem);
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.iconButton {
+	box-sizing: border-box;
+	margin-bottom: 0.9em;
+	background-color: transparent;
+	border-style: none;
+	justify-items: center;
+	display: flex;
+	align-content: space-around;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: center;
+	width: 8rem;
+}
+
+.icon {
+	width: auto;
+	height: auto;
+	border: 0ch;
+}
+
+.text {
+	margin-left: 1em;
+}
